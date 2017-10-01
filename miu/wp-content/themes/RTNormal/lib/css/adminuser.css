@@ -1,0 +1,12 @@
+/* Menu */
+.add-new-menu-action, .delete-action,.menu-settings ,.nav-tab{
+	display: none;
+}
+/* genesis */ 
+#toplevel_page_genesis ,#toplevel_page_edit-post_type-acf ,#toplevel_page_wpseo_dashboard , #toplevel_page_dd_button_setup,
+#menu-settings,#toplevel_page_wpcf7, #menu-plugins, #menu-tools, #toplevel_page_dd_button_setup, #toplevel_page_edit-post_type-acf-field-group {
+	display: none;
+}
+.metaslider .dropdown_container a, .delete-slider{
+	display: none !important;
+}

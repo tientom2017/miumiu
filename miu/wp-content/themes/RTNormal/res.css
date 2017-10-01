@@ -1,0 +1,95 @@
+/*****************************************************/
+/* Responsive for web
+/*****************************************************/
+@media screen and (max-width: 1000px){
+	*{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.site-container{
+		width: 100%;
+		padding: 0 10px;
+	}
+	.site-header{width: 100%;}
+	.nav-primary, .metaslider{display: none;}
+	.product-list .product-item{
+		width: 30.9% !important;
+		margin: 10px 1% 10px !important;
+	}
+	.product-list .product-item:before{
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	#divAdRight{display: none !important;}
+	.sidebar .widget{width: 100%}
+	.site-inner{width: 100%}
+	.footer-widgets .wrap, .site-footer .wrap{width: 100%;margin: 0 auto}
+	#searchform, .search-form{display: none;}
+	.content-sidebar-wrap{width: 100%}
+	.anhspsp{width: 100%}
+	.thongso{width: 100%}
+	.anhspsp img{width: auto !important;}
+	.sidebar-content .content, 
+	.sidebar-sidebar-content .content{width: 100%}
+	.sidebar-content .sidebar-primary, 
+	.sidebar-sidebar-content .sidebar-primary{width: 100%}
+	.footer-widgets .widget {
+		width: 100% !important;
+		padding: 0 10px;
+		margin: 0 0 10px 0;
+
+	}
+	.footer-widgets #nav_menu-4{
+		display: none;
+	}
+	.footer-widgets iframe{
+		width: 100%;
+	}
+	.sidebar .facebook_like{
+		text-align: center;
+	}
+	.gd_support_2{
+		padding-top: 0px !important;
+		background:none !important;
+	}
+	.hide-mobi{
+		display: none;
+	}
+}
+ @media handheld, only screen and (max-width: 700px) {
+ 	.product-list .product-item{
+		width: 48% !important;
+		margin: 10px 1% 10px !important;
+	}
+	.product-list .product-item:nth-child(3n){
+		margin-right: 2%;
+	}
+	.product-list .product-item:nth-child(2n){
+		margin-right: 0px;
+	}
+	.product-list .product-item:before{
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.dkmail input[type=email], .dkmail input[type=submit] {
+		width: 100%;
+	}
+	.dkmail input[type=email] {
+		margin-bottom: 10px;
+	}
+}
+
+ @media handheld, only screen and (max-width: 479px) {
+	.product-list .product-item{
+		width: 99% !important;
+		margin: 10px 0px;
+	}
+	.product-list .product-item:before{
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+ }
